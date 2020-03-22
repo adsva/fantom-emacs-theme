@@ -1,14 +1,11 @@
-
-;;; fantom-theme.el --- Emacs theme with a dark background.
-
-;; Copyright (C) 2014 , Adam Svanberg
+;;; fantom-theme.el --- Emacs theme with a dark background
+;; Copyright (C) 2020 , Adam Svanberg
 
 ;; Author: Adam Svanberg
-;; https://example.com
-;; Version: 0.1
-;; Package-Requires: ((emacs "24"))
+;; URL: https://github.com/adsva/fantom-emacs-theme
+;; Version: 1.0
+;; Package-Requires: ((emacs "24.1"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
-;; Inspired by https://github.com/tourervit/phantom-vscode-theme
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -25,7 +22,11 @@
 
 ;; This file is not part of Emacs.
 
+;; -*- lexical-binding: t; -*-
+
 ;;; Commentary:
+;; Dark Emacs theme based of the VSCode theme Phantom Code:
+;; https://marketplace.visualstudio.com/items?itemName=tourervit.phantom
 
 ;;; Code:
 
@@ -248,6 +249,7 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'fantom)
+(provide 'fantom-theme)
 
 ;; Local Variables:
 ;; no-byte-compile: t
