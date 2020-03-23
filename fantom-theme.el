@@ -255,8 +255,4 @@
 (provide-theme 'fantom)
 (provide 'fantom-theme)
 
-;; Local Variables:
-;; no-byte-compile: t
-;; End:
-
 ;;; fantom-theme.el ends here
