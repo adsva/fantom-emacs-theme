@@ -1,4 +1,4 @@
-;;; fantom-theme.el --- Emacs theme with a dark background
+;;; fantom-theme.el --- Dark theme based on Phantom Code for VSCode
 ;; Copyright (C) 2020 Adam Svanberg
 
 ;; Author: Adam Svanberg
@@ -29,7 +29,7 @@
 ;; -*- lexical-binding: t; -*-
 
 ;;; Commentary:
-;; Dark Emacs theme based of the VSCode theme Phantom Code:
+;; Dark theme based on the VSCode theme Phantom Code:
 ;; https://marketplace.visualstudio.com/items?itemName=tourervit.phantom
 
 ;;; Code:
